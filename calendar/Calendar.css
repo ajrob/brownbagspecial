@@ -1,0 +1,19 @@
+TD.label
+{
+    MARGIN-TOP: 0px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    WIDTH: 30px;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    HEIGHT: 16px;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+A.cal
+{
+    TEXT-DECORATION: none;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 16px;
+}

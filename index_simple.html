@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Brown Baggin' It
+		</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<script src="jquery.js"></script>
+        
+	</head>
+	
+	<header>
+        What'll it be?
+	</header>
+        <body>
+            <form>
+                            <select name="mondayselect">
+                                <option>Alex</option>
+                                <option>Robert</option>
+                                <option>Kim</option>
+                            </select>
+                        </form>
+                        <p><tt id="results"></tt></p>
+			<script>
+            function showValues() {
+              var str = $("form").serialize();
+              $("#results").text(str);
+            }
+            $("select").change(showValues);
+            showValues();
+        </script>
+        </body>
+
+	<footer>
+		Copyright M. Robinson's Kitchen
+	</footer>
+</html>
